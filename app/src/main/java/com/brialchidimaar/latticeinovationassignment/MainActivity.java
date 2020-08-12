@@ -117,7 +117,6 @@ public class MainActivity extends AppCompatActivity {
         if (name == null ) {
             name = ba.getAddress();
         }
-
         return name;
     }
 
@@ -134,6 +133,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.logout:
                 openDialog();
                 return true;
+
+            case R.id.connect_scan:
+                startActivity(new Intent(getApplicationContext(), ScanActivity.class));
+                break;
         }
         return  false;
     }

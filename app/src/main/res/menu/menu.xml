@@ -11,10 +11,4 @@
         android:title="@string/connect"
         app:showAsAction="ifRoom|withText" />
 
-
-<!--    <item android:id="@+id/discoverable"-->
-<!--        android:icon="@android:drawable/ic_menu_mylocation"-->
-<!--        android:title="@string/discoverable"-->
-<!--        app:showAsAction="ifRoom|withText" />-->
-
 </menu>
